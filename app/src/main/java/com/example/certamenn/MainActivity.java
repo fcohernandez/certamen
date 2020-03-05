@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         final TextView botonNum2 = (TextView) findViewById(R.id.num2);
         final TextView res = (TextView) findViewById(R.id.botonResOp);
         final TextView parPrimo = (TextView) findViewById(R.id.botonResParPrimo);
+        final TextView signo = (TextView) findViewById(R.id.signo);
 
         botonGeneraNum.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 double resultado = num1 + num2;
 
                 res.setText(Double.toString(resultado));
+                signo.setText("+");
 
             }
         });
@@ -77,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
                 double resultado = num1 - num2;
 
                 res.setText(Double.toString(resultado));
-
+                signo.setText("-");
             }
         });
 
@@ -88,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
                 botonNum1.setText(Double.toString(0));
                 botonNum2.setText(Double.toString(0));
                 parPrimo.setText("?");
+                signo.setText("?");
             }
         });
 
@@ -103,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
                 double resultado = num1 * num2;
 
                 res.setText(Double.toString(resultado));
+                signo.setText("*");
 
             }
         });
@@ -119,6 +123,7 @@ public class MainActivity extends AppCompatActivity {
                 double resultado = num1 / num2;
 
                 res.setText(Double.toString(resultado));
+                signo.setText("/");
 
             }
         });
