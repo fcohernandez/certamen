@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">certamenn</string>
+    <string name="num1">0</string>
+    <string name="num2">0</string>
+    <string name="signo">?</string>
+    <string name="generaNum">GENERAR NÚMEROS</string>
+    <string name="suma">+</string>
+    <string name="resta">-</string>
+    <string name="mul">X</string>
+    <string name="div">/</string>
+    <string name="reset">C</string>
+    <string name="botonPar">¿RESULTADO ES PAR?</string>
+    <string name="botonPrimo">¿RESULTADO ES PRIMO?</string>
+    <string name="textRes">RESULTADO</string>
+    <string name="resultadoNum">0</string>
+    <string name="resultadoText">?</string>
+</resources>

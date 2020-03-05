@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="texto">#FFFFFF</color>
+    <color name="generaNum">#F57B51</color>
+    <color name="botonMas">#EE6352</color>
+    <color name="botonMenos">#59CD90</color>
+    <color name="botonClear">#3FA7D6</color>
+    <color name="botonMul">#FAC05E</color>
+    <color name="botonDiv">#F79D84</color>
+    <color name="botonPrimo">#725AC1</color>
+    <color name="botonPar">#85CB33</color>
+    <color name="botonResParImpar">#D81E5B</color>
+</resources>

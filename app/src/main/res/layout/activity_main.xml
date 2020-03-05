@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CDC6AE"
+    android:paddingHorizontal="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/num1"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/num1"
+            android:textColor="@color/texto"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:maxLength="4"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signo"
+            android:id="@+id/signo"
+            android:layout_marginRight="50dp"
+            android:textSize="40dp"
+            android:textColor="@color/texto"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textAlignment="center"
+            android:text="@string/num2"
+            android:id="@+id/num2"
+            android:textSize="40dp"
+            android:textColor="@color/texto"
+            android:textStyle="bold"
+            android:maxLength="4"
+            />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/generaNum"
+        android:layout_gravity="center"
+        android:text="@string/generaNum"
+        android:textColor="@color/texto"
+        android:background="@color/generaNum"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp">
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="@string/suma"
+            android:textSize="35dp"
+            android:textColor="@color/texto"
+            android:background="@color/botonMas"
+            android:textStyle="bold"
+            android:id="@+id/botonSumar"
+            />
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="@string/resta"
+            android:textSize="35dp"
+            android:textColor="@color/texto"
+            android:background="@color/botonMenos"
+            android:textStyle="bold"
+            android:id="@+id/botonRestar"
+            />
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="@string/reset"
+            android:textSize="35dp"
+            android:textColor="@color/texto"
+            android:background="@color/botonClear"
+            android:textStyle="bold"
+            android:id="@+id/botonLimpiar"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp">
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="@string/mul"
+            android:textSize="35dp"
+            android:textColor="@color/texto"
+            android:background="@color/botonMul"
+            android:textStyle="bold"
+            android:id="@+id/botonMult"
+            />
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="@string/div"
+            android:textSize="35dp"
+            android:textColor="@color/texto"
+            android:background="@color/botonDiv"
+            android:textStyle="bold"
+            android:id="@+id/botonDiv"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:paddingTop="20dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/botonPar"
+            android:textColor="@color/texto"
+            android:background="@color/botonPar"
+            android:textStyle="bold"
+            android:id="@+id/botonVerPar"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/botonPrimo"
+            android:textColor="@color/texto"
+            android:background="@color/botonPrimo"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:id="@+id/botonVerPrimo"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:text="@string/textRes"
+            android:textColor="@color/texto"
+            android:background="@color/botonResParImpar"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:text="@string/resultadoNum"
+            android:textColor="@color/texto"
+            android:background="@color/botonPrimo"
+            android:textStyle="bold"
+            android:id="@+id/botonResOp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:text="@string/resultadoText"
+            android:textColor="@color/texto"
+            android:background="@color/botonResParImpar"
+            android:textStyle="bold"
+            android:id="@+id/botonResParPrimo"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
